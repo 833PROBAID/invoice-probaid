@@ -3,37 +3,37 @@ import { Template } from "./Template";
 import { config } from "../../config/config";
 
 const aiGeneratorPlugin = (editor) => {
-	const apiKey = config.gemenaiApiKey;
-	const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
-	const staticPhotoUrl = "/sample.png";
-	let cachedImageBase64 = null;
+  const apiKey = config.gemenaiApiKey;
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+  const staticPhotoUrl = "/sample.png";
+  let cachedImageBase64 = null;
 
-	const getImageAsBase64 = async (imageUrl) => {
-		if (cachedImageBase64) return cachedImageBase64;
-		try {
-			const absoluteUrl = imageUrl.startsWith("http")
-				? imageUrl
-				: `${window.location.origin}${imageUrl}`;
-			const response = await fetch(absoluteUrl);
-			if (!response.ok)
-				throw new Error(`Failed to fetch image: ${response.status}`);
-			const blob = await response.blob();
-			return new Promise((resolve, reject) => {
-				const reader = new FileReader();
-				reader.onloadend = () => {
-					cachedImageBase64 = reader.result;
-					resolve(cachedImageBase64);
-				};
-				reader.onerror = reject;
-				reader.readAsDataURL(blob);
-			});
-		} catch (error) {
-			console.error("Image conversion error:", error);
-			return null;
-		}
-	};
+  const getImageAsBase64 = async (imageUrl) => {
+    if (cachedImageBase64) return cachedImageBase64;
+    try {
+      const absoluteUrl = imageUrl.startsWith("http")
+        ? imageUrl
+        : `${window.location.origin}${imageUrl}`;
+      const response = await fetch(absoluteUrl);
+      if (!response.ok)
+        throw new Error(`Failed to fetch image: ${response.status}`);
+      const blob = await response.blob();
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          cachedImageBase64 = reader.result;
+          resolve(cachedImageBase64);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
+    } catch (error) {
+      console.error("Image conversion error:", error);
+      return null;
+    }
+  };
 
-	const componentStyles = `
+  const Componentstyles = `
     .ai-generator-component {
       padding: 20px;
       background-color: #f9fafb;
@@ -252,37 +252,37 @@ const aiGeneratorPlugin = (editor) => {
       margin-top: 8px;
     }`;
 
-	editor.DomComponents.addType("ai-generator", {
-		model: {
-			defaults: {
-				tagName: "div",
-				attributes: { class: "ai-generator-component" },
-				traits: [
-					{
-						type: "textarea",
-						name: "prompt",
-						label: "Your Blog Content",
-						placeholder: "Paste your blog content here...",
-					},
-				],
-				styles: componentStyles,
-			},
-		},
-		view: {
-			init() {
-				this.listenTo(this.model, "change:prompt", this.updateContent);
-				this.render();
-			},
+  editor.DomComponents.addType("ai-generator", {
+    model: {
+      defaults: {
+        tagName: "div",
+        attributes: { class: "ai-generator-component" },
+        traits: [
+          {
+            type: "textarea",
+            name: "prompt",
+            label: "Your Blog Content",
+            placeholder: "Paste your blog content here...",
+          },
+        ],
+        styles: Componentstyles,
+      },
+    },
+    view: {
+      init() {
+        this.listenTo(this.model, "change:prompt", this.updateContent);
+        this.render();
+      },
 
-			updateContent() {
-				const promptEl = this.el.querySelector(".ai-prompt-area");
-				if (promptEl) {
-					promptEl.value = this.model.getTrait("prompt").get("value") || "";
-				}
-			},
+      updateContent() {
+        const promptEl = this.el.querySelector(".ai-prompt-area");
+        if (promptEl) {
+          promptEl.value = this.model.getTrait("prompt").get("value") || "";
+        }
+      },
 
-			render() {
-				this.el.innerHTML = `
+      render() {
+        this.el.innerHTML = `
           <div class="ai-generator-header">
             <div class="ai-icon"><i class="fas fa-robot"></i></div>
             <h3 class="ai-generator-title">AI Blog Formatter</h3>
@@ -309,162 +309,162 @@ const aiGeneratorPlugin = (editor) => {
           </div>
           <div class="ai-error" style="display:none"></div>`;
 
-				const promptArea = this.el.querySelector(".ai-prompt-area");
-				if (promptArea) {
-					promptArea.value = this.model.getTrait("prompt").get("value") || "";
-					promptArea.addEventListener("input", (e) => {
-						this.model.getTrait("prompt").set("value", e.target.value);
-					});
-				}
+        const promptArea = this.el.querySelector(".ai-prompt-area");
+        if (promptArea) {
+          promptArea.value = this.model.getTrait("prompt").get("value") || "";
+          promptArea.addEventListener("input", (e) => {
+            this.model.getTrait("prompt").set("value", e.target.value);
+          });
+        }
 
-				const generateBtn = this.el.querySelector(".ai-generate-btn");
-				if (generateBtn) {
-					generateBtn.addEventListener("click", (e) => {
-						e.stopPropagation();
-						this.generateContent();
-					});
-				}
+        const generateBtn = this.el.querySelector(".ai-generate-btn");
+        if (generateBtn) {
+          generateBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            this.generateContent();
+          });
+        }
 
-				return this;
-			},
+        return this;
+      },
 
-			async generateContent() {
-				const elements = {
-					prompt: this.el.querySelector(".ai-prompt-area"),
-					loading: this.el.querySelector(".ai-loading"),
-					button: this.el.querySelector(".ai-generate-btn"),
-					error: this.el.querySelector(".ai-error"),
-				};
+      async generateContent() {
+        const elements = {
+          prompt: this.el.querySelector(".ai-prompt-area"),
+          loading: this.el.querySelector(".ai-loading"),
+          button: this.el.querySelector(".ai-generate-btn"),
+          error: this.el.querySelector(".ai-error"),
+        };
 
-				if (
-					!elements.prompt ||
-					!elements.loading ||
-					!elements.button ||
-					!elements.error
-				) {
-					console.error("Missing required elements in AI generator");
-					return;
-				}
+        if (
+          !elements.prompt ||
+          !elements.loading ||
+          !elements.button ||
+          !elements.error
+        ) {
+          console.error("Missing required elements in AI generator");
+          return;
+        }
 
-				elements.error.style.display = "none";
-				const prompt = elements.prompt.value
-					? elements.prompt.value.trim()
-					: "";
+        elements.error.style.display = "none";
+        const prompt = elements.prompt.value
+          ? elements.prompt.value.trim()
+          : "";
 
-				if (!prompt) {
-					this.showError("Please paste your blog content first.");
-					return;
-				}
+        if (!prompt) {
+          this.showError("Please paste your blog content first.");
+          return;
+        }
 
-				elements.loading.style.display = "flex";
-				elements.button.disabled = true;
+        elements.loading.style.display = "flex";
+        elements.button.disabled = true;
 
-				try {
-					await this.processContent(prompt, elements);
-				} catch (error) {
-					const errorMsg =
-						error instanceof Error ? error.message : "Unknown error occurred";
-					this.showError(`Processing failed: ${errorMsg}`);
-					console.error("Generation error:", error);
-				} finally {
-					elements.loading.style.display = "none";
-					elements.button.disabled = false;
-				}
-			},
+        try {
+          await this.processContent(prompt, elements);
+        } catch (error) {
+          const errorMsg =
+            error instanceof Error ? error.message : "Unknown error occurred";
+          this.showError(`Processing failed: ${errorMsg}`);
+          console.error("Generation error:", error);
+        } finally {
+          elements.loading.style.display = "none";
+          elements.button.disabled = false;
+        }
+      },
 
-			async processContent(content, elements) {
-				if (!content || typeof content !== "string") {
-					throw new Error("Invalid content provided");
-				}
+      async processContent(content, elements) {
+        if (!content || typeof content !== "string") {
+          throw new Error("Invalid content provided");
+        }
 
-				const progress = this.createProgressTracker();
-				if (
-					progress.element &&
-					elements.loading &&
-					elements.loading.parentNode
-				) {
-					elements.loading.parentNode.insertBefore(
-						progress.element,
-						elements.loading,
-					);
-				}
+        const progress = this.createProgressTracker();
+        if (
+          progress.element &&
+          elements.loading &&
+          elements.loading.parentNode
+        ) {
+          elements.loading.parentNode.insertBefore(
+            progress.element,
+            elements.loading,
+          );
+        }
 
-				try {
-					const startTime = Date.now();
-					progress.update("Initializing AI engine...", 5);
+        try {
+          const startTime = Date.now();
+          progress.update("Initializing AI engine...", 5);
 
-					const imageBase64 = await getImageAsBase64(staticPhotoUrl);
-					progress.update("Processed reference image", 10);
+          const imageBase64 = await getImageAsBase64(staticPhotoUrl);
+          progress.update("Processed reference image", 10);
 
-					const chunks = this.createContentChunks(content);
-					if (!chunks || !Array.isArray(chunks)) {
-						throw new Error("Failed to create content chunks");
-					}
+          const chunks = this.createContentChunks(content);
+          if (!chunks || !Array.isArray(chunks)) {
+            throw new Error("Failed to create content chunks");
+          }
 
-					if (chunks.length === 0) {
-						throw new Error("No valid content chunks could be created");
-					}
+          if (chunks.length === 0) {
+            throw new Error("No valid content chunks could be created");
+          }
 
-					progress.addSteps([
-						`Processing ${chunks.length} content sections`,
-						"Applying 833PROBAID styling",
-						"Validating HTML structure",
-					]);
+          progress.addSteps([
+            `Processing ${chunks.length} content sections`,
+            "Applying 833PROBAID styling",
+            "Validating HTML structure",
+          ]);
 
-					const results = [];
-					let currentStage = 0;
+          const results = [];
+          let currentStage = 0;
 
-					for (const [index, chunk] of chunks.entries()) {
-						if (!chunk || typeof chunk !== "string") {
-							console.warn(`Skipping invalid chunk at index ${index}`);
-							continue;
-						}
+          for (const [index, chunk] of chunks.entries()) {
+            if (!chunk || typeof chunk !== "string") {
+              console.warn(`Skipping invalid chunk at index ${index}`);
+              continue;
+            }
 
-						const progressPercent =
-							10 + Math.floor((index / chunks.length) * 70);
-						progress.update(
-							`Processing section ${index + 1}/${chunks.length}`,
-							progressPercent,
-							currentStage,
-						);
+            const progressPercent =
+              10 + Math.floor((index / chunks.length) * 70);
+            progress.update(
+              `Processing section ${index + 1}/${chunks.length}`,
+              progressPercent,
+              currentStage,
+            );
 
-						const result = await this.processChunk(
-							chunk,
-							index,
-							chunks.length,
-							imageBase64,
-						);
-						if (result.error) {
-							throw new Error(result.error);
-						}
-						results.push(result);
+            const result = await this.processChunk(
+              chunk,
+              index,
+              chunks.length,
+              imageBase64,
+            );
+            if (result.error) {
+              throw new Error(result.error);
+            }
+            results.push(result);
 
-						currentStage = Math.floor(((index + 1) / chunks.length) * 3);
-					}
+            currentStage = Math.floor(((index + 1) / chunks.length) * 3);
+          }
 
-					progress.update("Finalizing formatting...", 95, 2);
-					const combinedHtml = this.combineResults(results);
-					this.insertContent(combinedHtml);
+          progress.update("Finalizing formatting...", 95, 2);
+          const combinedHtml = this.combineResults(results);
+          this.insertContent(combinedHtml);
 
-					const elapsed = Math.round((Date.now() - startTime) / 1000);
-					progress.update(`Completed in ${elapsed}s`, 100, 3);
-					setTimeout(() => {
-						if (progress.element && progress.element.parentNode) {
-							progress.element.remove();
-						}
-					}, 2000);
-				} catch (error) {
-					if (progress.element && progress.element.parentNode) {
-						progress.element.remove();
-					}
-					throw error;
-				}
-			},
+          const elapsed = Math.round((Date.now() - startTime) / 1000);
+          progress.update(`Completed in ${elapsed}s`, 100, 3);
+          setTimeout(() => {
+            if (progress.element && progress.element.parentNode) {
+              progress.element.remove();
+            }
+          }, 2000);
+        } catch (error) {
+          if (progress.element && progress.element.parentNode) {
+            progress.element.remove();
+          }
+          throw error;
+        }
+      },
 
-			createProgressTracker() {
-				const element = document.createElement("div");
-				element.className = "ai-progress-tracker";
-				element.innerHTML = `
+      createProgressTracker() {
+        const element = document.createElement("div");
+        element.className = "ai-progress-tracker";
+        element.innerHTML = `
           <div class="progress-header">
             <strong class="progress-title"></strong>
             <span class="stage-indicator"></span>
@@ -476,113 +476,113 @@ const aiGeneratorPlugin = (editor) => {
             <div class="progress-bar" style="width:0%"></div>
           </div>`;
 
-				const tracker = {
-					element,
-					steps: [],
-					update: (message, percent, stageIndex = 0) => {
-						const title = element.querySelector(".progress-title");
-						const detail = element.querySelector(".progress-detail");
-						const bar = element.querySelector(".progress-bar");
-						const stepsContainer = element.querySelector(".ai-progress-steps");
-						const timeEstimate = element.querySelector(".ai-estimated-time");
+        const tracker = {
+          element,
+          steps: [],
+          update: (message, percent, stageIndex = 0) => {
+            const title = element.querySelector(".progress-title");
+            const detail = element.querySelector(".progress-detail");
+            const bar = element.querySelector(".progress-bar");
+            const stepsContainer = element.querySelector(".ai-progress-steps");
+            const timeEstimate = element.querySelector(".ai-estimated-time");
 
-						if (title) title.textContent = message || "";
-						if (bar)
-							bar.style.width = `${Math.min(100, Math.max(0, percent))}%`;
+            if (title) title.textContent = message || "";
+            if (bar)
+              bar.style.width = `${Math.min(100, Math.max(0, percent))}%`;
 
-						if (stepsContainer && tracker.steps && tracker.steps.length > 0) {
-							stepsContainer.innerHTML = tracker.steps
-								.map(
-									(step, i) =>
-										`<div class="ai-progress-step ${
-											i <= stageIndex ? "" : "pending"
-										}">${step}</div>`,
-								)
-								.join("");
-						}
+            if (stepsContainer && tracker.steps && tracker.steps.length > 0) {
+              stepsContainer.innerHTML = tracker.steps
+                .map(
+                  (step, i) =>
+                    `<div class="ai-progress-step ${
+                      i <= stageIndex ? "" : "pending"
+                    }">${step}</div>`,
+                )
+                .join("");
+            }
 
-						if (timeEstimate) {
-							const remaining = Math.round((100 - percent) * 0.5);
-							timeEstimate.textContent = `Estimated time remaining: ${remaining}s`;
-						}
-					},
-					addSteps: (steps) => {
-						if (Array.isArray(steps)) {
-							tracker.steps = steps;
-						}
-					},
-				};
+            if (timeEstimate) {
+              const remaining = Math.round((100 - percent) * 0.5);
+              timeEstimate.textContent = `Estimated time remaining: ${remaining}s`;
+            }
+          },
+          addSteps: (steps) => {
+            if (Array.isArray(steps)) {
+              tracker.steps = steps;
+            }
+          },
+        };
 
-				return tracker;
-			},
+        return tracker;
+      },
 
-			createContentChunks(content) {
-				if (!content || typeof content !== "string") {
-					console.error("Invalid content provided for chunking");
-					return [];
-				}
+      createContentChunks(content) {
+        if (!content || typeof content !== "string") {
+          console.error("Invalid content provided for chunking");
+          return [];
+        }
 
-				const MAX_CHUNK = 1900;
-				const sentenceSplit = /(?<!\b\w\s)\.\s+/g;
-				const paragraphs = content
-					.split(/\n\s*\n/)
-					.filter((p) => p && p.trim());
+        const MAX_CHUNK = 1900;
+        const sentenceSplit = /(?<!\b\w\s)\.\s+/g;
+        const paragraphs = content
+          .split(/\n\s*\n/)
+          .filter((p) => p && p.trim());
 
-				if (!paragraphs || paragraphs.length === 0) {
-					console.error("No valid paragraphs found in content");
-					return [];
-				}
+        if (!paragraphs || paragraphs.length === 0) {
+          console.error("No valid paragraphs found in content");
+          return [];
+        }
 
-				const chunks = [];
+        const chunks = [];
 
-				for (const para of paragraphs) {
-					const sentences = para
-						.split(sentenceSplit)
-						.filter((s) => s && s.trim());
-					let currentChunk = [];
-					let currentLength = 0;
+        for (const para of paragraphs) {
+          const sentences = para
+            .split(sentenceSplit)
+            .filter((s) => s && s.trim());
+          let currentChunk = [];
+          let currentLength = 0;
 
-					for (const sentence of sentences) {
-						const sentenceLength = sentence.length + 2;
+          for (const sentence of sentences) {
+            const sentenceLength = sentence.length + 2;
 
-						if (
-							currentLength + sentenceLength > MAX_CHUNK &&
-							currentChunk.length > 0
-						) {
-							chunks.push(currentChunk.join(". ") + ".");
-							currentChunk = [];
-							currentLength = 0;
-						}
+            if (
+              currentLength + sentenceLength > MAX_CHUNK &&
+              currentChunk.length > 0
+            ) {
+              chunks.push(currentChunk.join(". ") + ".");
+              currentChunk = [];
+              currentLength = 0;
+            }
 
-						currentChunk.push(sentence);
-						currentLength += sentenceLength;
-					}
+            currentChunk.push(sentence);
+            currentLength += sentenceLength;
+          }
 
-					if (currentChunk.length > 0) {
-						chunks.push(currentChunk.join(". ") + ".");
-					}
-				}
+          if (currentChunk.length > 0) {
+            chunks.push(currentChunk.join(". ") + ".");
+          }
+        }
 
-				return chunks.length > 0 ? chunks : [content.substring(0, MAX_CHUNK)];
-			},
+        return chunks.length > 0 ? chunks : [content.substring(0, MAX_CHUNK)];
+      },
 
-			async processChunk(chunk, index, total, imageBase64) {
-				if (!chunk || typeof chunk !== "string") {
-					return { error: `Invalid chunk at index ${index}`, index };
-				}
+      async processChunk(chunk, index, total, imageBase64) {
+        if (!chunk || typeof chunk !== "string") {
+          return { error: `Invalid chunk at index ${index}`, index };
+        }
 
-				try {
-					const isFirst = index === 0;
-					const prompt = `
+        try {
+          const isFirst = index === 0;
+          const prompt = `
 			${Template}
 			Format this ${isFirst ? "first" : "next"} blog section (${
-						index + 1
-					}/${total}) using HTML/Tailwind.
+        index + 1
+      }/${total}) using HTML/Tailwind.
 			PRESERVE ALL CONTENT EXACTLY. ${
-				isFirst
-					? "Include header with title/subTitle/author/date, use a relevant title/subTitle based on the blog content provided by user."
-					: ""
-			}
+        isFirst
+          ? "Include header with title/subTitle/author/date, use a relevant title/subTitle based on the blog content provided by user."
+          : ""
+      }
 			Use brand colors: #FF5300 (accent) and #0097A7 (primary).
 			Reference image: ${staticPhotoUrl}
 			
@@ -593,208 +593,208 @@ const aiGeneratorPlugin = (editor) => {
 			${chunk}
 			---`;
 
-					const parts = [{ text: prompt }];
-					if (imageBase64) {
-						parts.push({
-							inline_data: {
-								mime_type: "image/jpeg",
-								data: imageBase64.split(",")[1],
-							},
-						});
-					}
+          const parts = [{ text: prompt }];
+          if (imageBase64) {
+            parts.push({
+              inline_data: {
+                mime_type: "image/jpeg",
+                data: imageBase64.split(",")[1],
+              },
+            });
+          }
 
-					const response = await fetch(endpoint, {
-						method: "POST",
-						headers: { "Content-Type": "application/json" },
-						body: JSON.stringify({
-							contents: [{ parts }],
-							generationConfig: {
-								temperature: 0.4,
-								maxOutputTokens: 8192,
-								topP: 0.95,
-							},
-						}),
-					});
+          const response = await fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              contents: [{ parts }],
+              generationConfig: {
+                temperature: 0.4,
+                maxOutputTokens: 8192,
+                topP: 0.95,
+              },
+            }),
+          });
 
-					if (!response.ok) {
-						const errorData = await response.json().catch(() => ({}));
-						throw new Error(
-							errorData.message || `API error: ${response.status}`,
-						);
-					}
+          if (!response.ok) {
+            const errorData = await response.json().catch(() => ({}));
+            throw new Error(
+              errorData.message || `API error: ${response.status}`,
+            );
+          }
 
-					const data = await response.json();
-					if (!data?.candidates?.[0]?.content?.parts) {
-						throw new Error("Invalid API response structure");
-					}
+          const data = await response.json();
+          if (!data?.candidates?.[0]?.content?.parts) {
+            throw new Error("Invalid API response structure");
+          }
 
-					return {
-						html: this.normalizeHtml(this.extractHtml(data)),
-						index,
-					};
-				} catch (error) {
-					console.error(`Error processing chunk ${index + 1}/${total}:`, error);
-					return {
-						error: error.message || `Failed to process section ${index + 1}`,
-						index,
-					};
-				}
-			},
+          return {
+            html: this.normalizeHtml(this.extractHtml(data)),
+            index,
+          };
+        } catch (error) {
+          console.error(`Error processing chunk ${index + 1}/${total}:`, error);
+          return {
+            error: error.message || `Failed to process section ${index + 1}`,
+            index,
+          };
+        }
+      },
 
-			extractHtml(data) {
-				try {
-					if (!data || !data.candidates || !Array.isArray(data.candidates)) {
-						throw new Error("Invalid data structure");
-					}
+      extractHtml(data) {
+        try {
+          if (!data || !data.candidates || !Array.isArray(data.candidates)) {
+            throw new Error("Invalid data structure");
+          }
 
-					const text =
-						data.candidates[0]?.content?.parts
-							?.map((part) => part.text || "")
-							?.join("") || "";
+          const text =
+            data.candidates[0]?.content?.parts
+              ?.map((part) => part.text || "")
+              ?.join("") || "";
 
-					const htmlMatch = text.match(/```html?([\s\S]*?)```/);
-					return htmlMatch ? htmlMatch[1] : text;
-				} catch (error) {
-					console.error("Error extracting HTML:", error);
-					return `<div>Error processing response: ${error.message}</div>`;
-				}
-			},
+          const htmlMatch = text.match(/```html?([\s\S]*?)```/);
+          return htmlMatch ? htmlMatch[1] : text;
+        } catch (error) {
+          console.error("Error extracting HTML:", error);
+          return `<div>Error processing response: ${error.message}</div>`;
+        }
+      },
 
-			normalizeHtml(html) {
-				if (!html) return "";
-				return DOMPurify.sanitize(
-					html
-						.replace(/```html?|```/g, "")
-						.replace(/(\n\s*){3,}/g, "\n\n")
-						.replace(/<(\/?)h3/g, "<$1h2")
-						.replace(/<br\s*\/?>\s*<br\s*\/?>/g, "</p><p>")
-						.trim(),
-				);
-			},
+      normalizeHtml(html) {
+        if (!html) return "";
+        return DOMPurify.sanitize(
+          html
+            .replace(/```html?|```/g, "")
+            .replace(/(\n\s*){3,}/g, "\n\n")
+            .replace(/<(\/?)h3/g, "<$1h2")
+            .replace(/<br\s*\/?>\s*<br\s*\/?>/g, "</p><p>")
+            .trim(),
+        );
+      },
 
-			combineResults(results) {
-				if (!results || !Array.isArray(results)) {
-					console.error("Invalid results array:", results);
-					return '<div class="error">Error combining results</div>';
-				}
+      combineResults(results) {
+        if (!results || !Array.isArray(results)) {
+          console.error("Invalid results array:", results);
+          return '<div class="error">Error combining results</div>';
+        }
 
-				const validResults = results.filter(
-					(r) => r && r.html && typeof r.html === "string",
-				);
-				if (validResults.length === 0) {
-					return '<div class="error">No valid content generated</div>';
-				}
+        const validResults = results.filter(
+          (r) => r && r.html && typeof r.html === "string",
+        );
+        if (validResults.length === 0) {
+          return '<div class="error">No valid content generated</div>';
+        }
 
-				const sortedResults = validResults.sort(
-					(a, b) => (a.index || 0) - (b.index || 0),
-				);
-				const mainContent = sortedResults
-					.map((result) => result.html)
-					.join("\n");
+        const sortedResults = validResults.sort(
+          (a, b) => (a.index || 0) - (b.index || 0),
+        );
+        const mainContent = sortedResults
+          .map((result) => result.html)
+          .join("\n");
 
-				return `
+        return `
           <div class="blog-container mx-auto max-w-4xl px-4 py-8">
             ${mainContent}
           </div>`;
-			},
+      },
 
-			insertContent(html) {
-				if (!html || typeof html !== "string") {
-					console.error("Invalid HTML content to insert");
-					this.showError("No content was generated");
-					return;
-				}
+      insertContent(html) {
+        if (!html || typeof html !== "string") {
+          console.error("Invalid HTML content to insert");
+          this.showError("No content was generated");
+          return;
+        }
 
-				try {
-					const cleanHtml = DOMPurify.sanitize(html, {
-						ADD_TAGS: ["iframe", "svg", "path"],
-						ADD_ATTR: [
-							"allow",
-							"allowfullscreen",
-							"frameborder",
-							"scrolling",
-							"d",
-							"viewBox",
-							"width",
-							"height",
-							"fill",
-							"stroke",
-						],
-					});
+        try {
+          const cleanHtml = DOMPurify.sanitize(html, {
+            ADD_TAGS: ["iframe", "svg", "path"],
+            ADD_ATTR: [
+              "allow",
+              "allowfullscreen",
+              "frameborder",
+              "scrolling",
+              "d",
+              "viewBox",
+              "width",
+              "height",
+              "fill",
+              "stroke",
+            ],
+          });
 
-					// Get the AI component to remove after insertion
-					const aiComponent = editor.getSelected();
+          // Get the AI component to remove after insertion
+          const aiComponent = editor.getSelected();
 
-					// Add the generated content as a new component
-					const component = editor.Components.addComponent({
-						type: "default",
-						components: cleanHtml,
-						style: Template,
-						removable: true,
-						draggable: true,
-					});
+          // Add the generated content as a new component
+          const component = editor.Components.addComponent({
+            type: "default",
+            Components: cleanHtml,
+            style: Template,
+            removable: true,
+            draggable: true,
+          });
 
-					// Place the new component in the editor
-					if (aiComponent && aiComponent.get("type") === "ai-generator") {
-						// Insert at the same position as the AI generator
-						const parent = aiComponent.parent();
-						const index = parent.components().indexOf(aiComponent);
+          // Place the new component in the editor
+          if (aiComponent && aiComponent.get("type") === "ai-generator") {
+            // Insert at the same position as the AI generator
+            const parent = aiComponent.parent();
+            const index = parent.Components().indexOf(aiComponent);
 
-						if (index >= 0) {
-							parent.components().add(component, { at: index });
-						} else {
-							editor.getWrapper().append(component);
-						}
+            if (index >= 0) {
+              parent.Components().add(component, { at: index });
+            } else {
+              editor.getWrapper().append(component);
+            }
 
-						// Remove the AI generator component
-						aiComponent.remove();
-					} else {
-						editor.getWrapper().append(component);
-					}
+            // Remove the AI generator component
+            aiComponent.remove();
+          } else {
+            editor.getWrapper().append(component);
+          }
 
-					// Ensure all AI generator components are removed from the editor
-					const allComponents = editor.DomComponents.getComponents();
-					this.removeAiGeneratorComponents(allComponents);
-				} catch (error) {
-					console.error("Error inserting content:", error);
-					this.showError(`Failed to insert content: ${error.message}`);
-				}
-			},
+          // Ensure all AI generator Components are removed from the editor
+          const allComponents = editor.DomComponents.getComponents();
+          this.removeAiGeneratorComponents(allComponents);
+        } catch (error) {
+          console.error("Error inserting content:", error);
+          this.showError(`Failed to insert content: ${error.message}`);
+        }
+      },
 
-			// Helper method to recursively remove all AI generator components
-			removeAiGeneratorComponents(components) {
-				if (!components || !components.length) return;
+      // Helper method to recursively remove all AI generator Components
+      removeAiGeneratorComponents(Components) {
+        if (!Components || !Components.length) return;
 
-				for (let i = components.length - 1; i >= 0; i--) {
-					const comp = components.at(i);
-					if (comp.get("type") === "ai-generator") {
-						comp.remove();
-					} else if (comp.components && comp.components().length) {
-						this.removeAiGeneratorComponents(comp.components());
-					}
-				}
-			},
+        for (let i = Components.length - 1; i >= 0; i--) {
+          const comp = Components.at(i);
+          if (comp.get("type") === "ai-generator") {
+            comp.remove();
+          } else if (comp.Components && comp.Components().length) {
+            this.removeAiGeneratorComponents(comp.Components());
+          }
+        }
+      },
 
-			showError(message) {
-				if (!message || typeof message !== "string") return;
+      showError(message) {
+        if (!message || typeof message !== "string") return;
 
-				const errorEl = this.el.querySelector(".ai-error");
-				if (errorEl) {
-					errorEl.innerHTML = DOMPurify.sanitize(`
+        const errorEl = this.el.querySelector(".ai-error");
+        if (errorEl) {
+          errorEl.innerHTML = DOMPurify.sanitize(`
             <strong>Error:</strong> ${message}<br>
             <em>Please try again or contact support.</em>
           `);
-					errorEl.style.display = "block";
-				}
-			},
-		},
-	});
+          errorEl.style.display = "block";
+        }
+      },
+    },
+  });
 
-	editor.Commands.add("ai-generate", {
-		run(editor) {
-			editor.addComponents({ type: "ai-generator" });
-		},
-	});
+  editor.Commands.add("ai-generate", {
+    run(editor) {
+      editor.addComponents({ type: "ai-generator" });
+    },
+  });
 };
 
 export default aiGeneratorPlugin;

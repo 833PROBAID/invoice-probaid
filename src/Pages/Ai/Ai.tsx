@@ -11,8 +11,8 @@ import { marked } from "marked";
 import Fuse from "fuse.js";
 import { GoogleGenAI, Chat } from "@google/genai";
 import { config, QA_DATA, COMPANY_INFO } from "./config";
-import Avatar from "./components/Avatar";
-import Visualizer from "./components/Visualizer";
+import Avatar from "./Components/Avatar";
+import Visualizer from "./Components/Visualizer";
 
 // --- Gemini Setup ---
 const ai = new GoogleGenAI({ apiKey: config.gemenaiApiKey });
@@ -571,8 +571,8 @@ const Ai: React.FC = () => {
 			preCheckedSimilarQuestion !== undefined
 				? preCheckedSimilarQuestion
 				: !isClarificationResponse
-				? findSimilarQuestion(text.trim())
-				: null;
+					? findSimilarQuestion(text.trim())
+					: null;
 
 		// Add to question history (skip for clarification responses)
 		if (!isClarificationResponse) {
@@ -748,9 +748,8 @@ const Ai: React.FC = () => {
 			{/* Main Interface */}
 			{!isMinimized && (
 				<div
-					className={`pointer-events-auto bg-white w-[90vw] sm:w-[400px] rounded-2xl shadow-2xl overflow-hidden flex flex-col transition-all duration-500 ease-in-out border border-gray-200 ${
-						isVoiceMode ? "h-[600px]" : "h-[600px] max-h-[80vh]"
-					}`}>
+					className={`pointer-events-auto bg-white w-[90vw] sm:w-[400px] rounded-2xl shadow-2xl overflow-hidden flex flex-col transition-all duration-500 ease-in-out border border-gray-200 ${isVoiceMode ? "h-[600px]" : "h-[600px] max-h-[80vh]"
+						}`}>
 					{/* Header */}
 					<div className='bg-white border-b border-gray-100 p-4 flex justify-between items-center z-10'>
 						<div className='flex items-center gap-3'>
@@ -765,33 +764,30 @@ const Ai: React.FC = () => {
 								<h3 className='font-bold text-gray-800'>Eva</h3>
 								<p className='text-[10px] uppercase tracking-wider text-gray-500 font-semibold flex items-center gap-1 leading-7'>
 									<span
-										className={`w-1.5 h-1.5 rounded-full ${
-											awaitingClarification
+										className={`w-1.5 h-1.5 rounded-full ${awaitingClarification
 												? "bg-yellow-500"
 												: voiceState.isSpeaking || voiceState.isListening
-												? "bg-orange-500"
-												: "bg-green-400"
-										}`}></span>
+													? "bg-orange-500"
+													: "bg-green-400"
+											}`}></span>
 									{awaitingClarification
 										? "Awaiting Details"
 										: isVoiceMode
-										? "Voice Active"
-										: "Online"}
+											? "Voice Active"
+											: "Online"}
 								</p>
 							</div>
 						</div>
 						<div className='flex gap-2'>
 							<button
 								onClick={toggleMode}
-								className={`w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
-									isVoiceMode
+								className={`w-9 h-9 rounded-full flex items-center justify-center transition-colors ${isVoiceMode
 										? "bg-accent text-white"
 										: "bg-gray-100 text-gray-600 hover:bg-gray-200"
-								}`}>
+									}`}>
 								<i
-									className={`fas ${
-										isVoiceMode ? "fa-keyboard" : "fa-microphone"
-									}`}></i>
+									className={`fas ${isVoiceMode ? "fa-keyboard" : "fa-microphone"
+										}`}></i>
 							</button>
 							<button
 								onClick={() => setIsMinimized(true)}
@@ -842,15 +838,13 @@ const Ai: React.FC = () => {
 								{messages.map((msg, i) => (
 									<div
 										key={i}
-										className={`flex ${
-											msg.role === "user" ? "justify-end" : "justify-start"
-										} animate-[slideUp_0.3s_ease-out]`}>
+										className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"
+											} animate-[slideUp_0.3s_ease-out]`}>
 										<div
-											className={`max-w-[85%] rounded-2xl p-4 text-sm shadow-sm ${
-												msg.role === "user"
+											className={`max-w-[85%] rounded-2xl p-4 text-sm shadow-sm ${msg.role === "user"
 													? "bg-primary text-white rounded-br-none"
 													: "bg-white border border-gray-100 text-gray-800 rounded-bl-none"
-											}`}>
+												}`}>
 											{msg.role === "user"
 												? msg.content
 												: renderContent(msg.content)}
@@ -974,11 +968,10 @@ const Ai: React.FC = () => {
 								<button
 									type='submit'
 									disabled={!question.trim() || isTyping}
-									className={`w-12 rounded-xl flex items-center justify-center transition-all ${
-										!question.trim()
+									className={`w-12 rounded-xl flex items-center justify-center transition-all ${!question.trim()
 											? "bg-gray-100 text-gray-400"
 											: "bg-primary text-white shadow-md hover:bg-primaryDark"
-									}`}>
+										}`}>
 									<i className='fas fa-paper-plane'></i>
 								</button>
 							</form>
