@@ -11,8 +11,8 @@ import { marked } from "marked";
 import Fuse from "fuse.js";
 import { GoogleGenAI, Chat } from "@google/genai";
 import { config, QA_DATA, COMPANY_INFO } from "./config";
-import Avatar from "./Components/Avatar";
-import Visualizer from "./Components/Visualizer";
+import Avatar from "./components/Avatar";
+import Visualizer from "./components/Visualizer";
 
 // --- Gemini Setup ---
 const ai = new GoogleGenAI({ apiKey: config.gemenaiApiKey });
