@@ -1,0 +1,1988 @@
+[
+	{
+		"number": 1,
+		"category": "probate",
+		"question": "What is probate real estate?",
+		"answer": "Probate real estate refers to property that is part of a deceased person's estate and must go through a court-supervised process before being sold or distributed."
+	},
+	{
+		"number": 2,
+		"category": "probate",
+		"question": "Can I sell a house during probate?",
+		"answer": "Yes, but the sale requires court approval and must follow specific legal procedures outlined in the probate code."
+	},
+	{
+		"number": 3,
+		"category": "probate",
+		"question": "What is court confirmation in a probate sale?",
+		"answer": "A court hearing where the judge reviews and approves the sale terms, ensuring the estate receives fair market value."
+	},
+	{
+		"number": 4,
+		"category": "probate",
+		"question": "Can we sell without court confirmation?",
+		"answer": "Only if the executor has 'full authority' under the Independent Administration of Estates Act."
+	},
+	{
+		"number": 5,
+		"category": "probate",
+		"question": "What is the Independent Administration of Estates Act?",
+		"answer": "A California law that allows executors to handle certain estate matters without constant court supervision."
+	},
+	{
+		"number": 6,
+		"category": "probate",
+		"question": "Can a house be sold if heirs disagree?",
+		"answer": "Yes, the executor can still sell if authorized by the court, though heir disputes may complicate the process."
+	},
+	{
+		"number": 7,
+		"category": "probate",
+		"question": "How are disputes between heirs resolved?",
+		"answer": "Through mediation or court hearings if heirs cannot reach agreement on the property disposition."
+	},
+	{
+		"number": 8,
+		"category": "probate",
+		"question": "How long does a probate sale take?",
+		"answer": "Typically 4-6 months from listing to close, but complex cases can take longer."
+	},
+	{
+		"number": 9,
+		"category": "probate",
+		"question": "What fees are involved in probate sales?",
+		"answer": "Court fees, executor fees, attorney fees, real estate commissions, and standard closing costs."
+	},
+	{
+		"number": 10,
+		"category": "probate",
+		"question": "Can I sell before probate is complete?",
+		"answer": "No, you must wait for court authorization before entering into any sale agreement."
+	},
+	{
+		"number": 11,
+		"category": "probate",
+		"question": "What documents are needed to sell?",
+		"answer": "Death certificate, Letters Testamentary, property deed, and court order authorizing sale."
+	},
+	{
+		"number": 12,
+		"category": "probate",
+		"question": "Who pays the mortgage during probate?",
+		"answer": "The estate is responsible for maintaining mortgage payments until closing."
+	},
+	{
+		"number": 13,
+		"category": "probate",
+		"question": "How are creditor claims handled?",
+		"answer": "Valid claims must be paid from estate funds before heirs receive distributions."
+	},
+	{
+		"number": 14,
+		"category": "probate",
+		"question": "What if the sale price doesn't cover debts?",
+		"answer": "The estate may need to negotiate with creditors or file for insolvency proceedings."
+	},
+	{
+		"number": 15,
+		"category": "probate",
+		"question": "Are probate sales cash only?",
+		"answer": "Not necessarily, but cash offers are often preferred for their certainty and speed."
+	},
+	{
+		"number": 16,
+		"category": "probate",
+		"question": "How are proceeds distributed?",
+		"answer": "After paying debts/expenses, remaining funds are distributed to heirs per the will or intestacy laws."
+	},
+	{
+		"number": 17,
+		"category": "probate",
+		"question": "Can investors buy probate properties?",
+		"answer": "Yes, investors frequently purchase probate properties, often at competitive prices."
+	},
+	{
+		"number": 18,
+		"category": "probate",
+		"question": "What is an overbid?",
+		"answer": "A higher offer presented at the confirmation hearing, usually requiring 10% over the accepted offer."
+	},
+	{
+		"number": 19,
+		"category": "probate",
+		"question": "Are probate properties sold as-is?",
+		"answer": "Yes, the estate typically makes no repairs, though disclosure requirements still apply."
+	},
+	{
+		"number": 20,
+		"category": "probate",
+		"question": "Can family members buy the property?",
+		"answer": "Yes, but they must participate in any required bidding process and pay fair market value."
+	},
+	{
+		"number": 21,
+		"category": "probate",
+		"question": "What is a probate bond?",
+		"answer": "An insurance policy protecting the estate from executor misconduct, sometimes required by the court."
+	},
+	{
+		"number": 22,
+		"category": "probate",
+		"question": "How is sale price determined?",
+		"answer": "Through professional appraisal and market analysis to establish fair market value."
+	},
+	{
+		"number": 23,
+		"category": "probate",
+		"question": "Can you list before court approval?",
+		"answer": "Preparation can begin, but active marketing must wait for proper authorization."
+	},
+	{
+		"number": 24,
+		"category": "probate",
+		"question": "What happens to personal property?",
+		"answer": "Items must be inventoried and distributed to heirs before or during the sale process."
+	},
+	{
+		"number": 25,
+		"category": "probate",
+		"question": "Are probate sales public record?",
+		"answer": "Yes, all probate proceedings including real estate sales are public records."
+	},
+	{
+		"number": 26,
+		"category": "probate",
+		"question": "Can I rent out during probate?",
+		"answer": "With court approval, yes. Rental income would belong to the estate."
+	},
+	{
+		"number": 27,
+		"category": "probate",
+		"question": "What if repairs are needed?",
+		"answer": "Minor maintenance is allowed; major repairs require court authorization."
+	},
+	{
+		"number": 28,
+		"category": "probate",
+		"question": "How are property taxes handled?",
+		"answer": "The estate must stay current on property tax payments."
+	},
+	{
+		"number": 29,
+		"category": "probate",
+		"question": "What's formal vs summary probate?",
+		"answer": "Summary probate is for small estates; real estate typically requires formal probate."
+	},
+	{
+		"number": 30,
+		"category": "probate",
+		"question": "Can I refinance probate property?",
+		"answer": "Rarely allowed unless it clearly benefits the estate and receives court approval."
+	},
+	{
+		"number": 31,
+		"category": "probate",
+		"question": "What about reverse mortgages?",
+		"answer": "The estate typically has 6 months to repay or sell the property."
+	},
+	{
+		"number": 32,
+		"category": "probate",
+		"question": "How are capital gains taxed?",
+		"answer": "The estate may owe taxes on appreciation since date of death."
+	},
+	{
+		"number": 33,
+		"category": "probate",
+		"question": "Can executor live in the property?",
+		"answer": "Only with court approval and usually must pay fair market rent."
+	},
+	{
+		"number": 34,
+		"category": "probate",
+		"question": "What if no will exists?",
+		"answer": "The court appoints an administrator and property distributes per intestacy laws."
+	},
+	{
+		"number": 35,
+		"category": "probate",
+		"question": "What disclosures are required?",
+		"answer": "Standard transfer disclosures plus any court-required notices."
+	},
+	{
+		"number": 36,
+		"category": "probate",
+		"question": "Can I sell just part of the property?",
+		"answer": "Only with court approval showing it benefits the estate."
+	},
+	{
+		"number": 37,
+		"category": "probate",
+		"question": "What is a probate referee?",
+		"answer": "A court-appointed official who verifies property values."
+	},
+	{
+		"number": 38,
+		"category": "probate",
+		"question": "How are liens handled?",
+		"answer": "Valid liens must be paid from sale proceeds before distribution to heirs."
+	},
+	{
+		"number": 39,
+		"category": "probate",
+		"question": "Can I contest a probate sale?",
+		"answer": "Heirs can object during confirmation hearings with valid legal grounds."
+	},
+	{
+		"number": 40,
+		"category": "probate",
+		"question": "What is intestate succession?",
+		"answer": "The legal process when someone dies without a valid will."
+	},
+	{
+		"number": 41,
+		"category": "probate",
+		"question": "Can executor be a real estate agent?",
+		"answer": "Yes, but must disclose this and typically can't double-dip on fees."
+	},
+	{
+		"number": 42,
+		"category": "probate",
+		"question": "How are utilities handled?",
+		"answer": "The estate should maintain essential utilities until closing."
+	},
+	{
+		"number": 43,
+		"category": "probate",
+		"question": "What insurance is needed?",
+		"answer": "Hazard insurance must be maintained; executor's policy recommended if vacant."
+	},
+	{
+		"number": 44,
+		"category": "probate",
+		"question": "Can I sell at auction?",
+		"answer": "Yes, with court approval. Auctions can be effective for unique properties."
+	},
+	{
+		"number": 45,
+		"category": "probate",
+		"question": "What if property is in another state?",
+		"answer": "Ancillary probate may be required in that jurisdiction."
+	},
+	{
+		"number": 46,
+		"category": "probate",
+		"question": "How are HOA fees handled?",
+		"answer": "The estate must stay current on all HOA obligations."
+	},
+	{
+		"number": 47,
+		"category": "probate",
+		"question": "Can I get financing for probate purchase?",
+		"answer": "Yes, but cash offers are often more competitive in probate sales."
+	},
+	{
+		"number": 48,
+		"category": "probate",
+		"question": "What is spousal property petition?",
+		"answer": "A simplified process for transferring property to surviving spouses."
+	},
+	{
+		"number": 49,
+		"category": "probate",
+		"question": "Can I see properties before they list?",
+		"answer": "Sometimes possible if executor grants permission."
+	},
+	{
+		"number": 50,
+		"category": "probate",
+		"question": "What is small estate affidavit?",
+		"answer": "A simplified probate alternative for estates below statutory thresholds."
+	},
+	{
+		"number": 51,
+		"category": "probate",
+		"question": "How are mineral rights handled?",
+		"answer": "They must be specifically addressed in the sale and court orders."
+	},
+	{
+		"number": 52,
+		"category": "probate",
+		"question": "What is a testamentary trust?",
+		"answer": "A trust created by a will that takes effect after probate."
+	},
+	{
+		"number": 53,
+		"category": "probate",
+		"question": "Can I buy tenant's interest?",
+		"answer": "Yes, but their rights must be respected per local landlord-tenant laws."
+	},
+	{
+		"number": 54,
+		"category": "probate",
+		"question": "How are easements handled?",
+		"answer": "Existing easements remain in effect unless specifically addressed in sale."
+	},
+	{
+		"number": 55,
+		"category": "probate",
+		"question": "What is a no-contest clause?",
+		"answer": "A will provision that penalizes beneficiaries who challenge the will."
+	},
+	{
+		"number": 56,
+		"category": "probate",
+		"question": "How are partnership interests handled?",
+		"answer": "The estate's interest in any partnerships must be valued and addressed."
+	},
+	{
+		"number": 57,
+		"category": "probate",
+		"question": "What is a holographic will?",
+		"answer": "A handwritten will that may be valid without witnesses in some states."
+	},
+	{
+		"number": 58,
+		"category": "probate",
+		"question": "How are life estates handled?",
+		"answer": "The life tenant's rights must be respected until their passing."
+	},
+	{
+		"number": 59,
+		"category": "probate",
+		"question": "What is ancillary probate?",
+		"answer": "Additional probate proceedings required for out-of-state property."
+	},
+	{
+		"number": 60,
+		"category": "probate",
+		"question": "How are business assets handled?",
+		"answer": "Business interests must be valued and either sold or distributed to heirs."
+	},
+	{
+		"number": 61,
+		"category": "probate",
+		"question": "What is a surviving spouse's elective share?",
+		"answer": "The portion of estate a spouse can claim regardless of will terms."
+	},
+	{
+		"number": 62,
+		"category": "probate",
+		"question": "How are digital assets handled?",
+		"answer": "Digital assets must be inventoried and managed per will terms or state law."
+	},
+	{
+		"number": 63,
+		"category": "probate",
+		"question": "What is a family allowance?",
+		"answer": "Funds the court may authorize for family support during probate."
+	},
+	{
+		"number": 64,
+		"category": "probate",
+		"question": "How are timeshares handled?",
+		"answer": "They must be addressed like other real property in the estate."
+	},
+	{
+		"number": 65,
+		"category": "probate",
+		"question": "What is a pretermitted heir?",
+		"answer": "A child accidentally omitted from a will who may still have inheritance rights."
+	},
+	{
+		"number": 66,
+		"category": "probate",
+		"question": "How are pets handled?",
+		"answer": "Pets are considered property but can be specifically addressed in wills."
+	},
+	{
+		"number": 67,
+		"category": "probate",
+		"question": "What is a no-contest clause?",
+		"answer": "A will provision that penalizes beneficiaries who challenge the will."
+	},
+	{
+		"number": 68,
+		"category": "probate",
+		"question": "How are firearms handled?",
+		"answer": "They must be properly transferred following both probate and gun laws."
+	},
+	{
+		"number": 69,
+		"category": "probate",
+		"question": "What is a pour-over will?",
+		"answer": "A will that transfers assets into a trust at death."
+	},
+	{
+		"number": 70,
+		"category": "probate",
+		"question": "How are foreign assets handled?",
+		"answer": "They may require separate probate proceedings in the foreign jurisdiction."
+	},
+	{
+		"number": 71,
+		"category": "probate",
+		"question": "What is a personal property memorandum?",
+		"answer": "A separate document that distributes tangible personal property."
+	},
+	{
+		"number": 72,
+		"category": "probate",
+		"question": "How are royalties handled?",
+		"answer": "Future royalty payments are estate assets that must be addressed."
+	},
+	{
+		"number": 73,
+		"category": "probate",
+		"question": "What is a wrongful death claim?",
+		"answer": "A separate legal action that doesn't go through probate."
+	},
+	{
+		"number": 74,
+		"category": "probate",
+		"question": "How are veterans benefits handled?",
+		"answer": "Certain benefits may continue for survivors outside of probate."
+	},
+	{
+		"number": 75,
+		"category": "probate",
+		"question": "What is a disclaimer?",
+		"answer": "When a beneficiary refuses an inheritance, which then passes to others."
+	},
+	{
+		"number": 76,
+		"category": "probate",
+		"question": "How are collectibles handled?",
+		"answer": "They must be appraised and either distributed or sold."
+	},
+	{
+		"number": 77,
+		"category": "probate",
+		"question": "What is a special administrator?",
+		"answer": "A temporary executor appointed to handle urgent estate matters."
+	},
+	{
+		"number": 78,
+		"category": "probate",
+		"question": "How are farm assets handled?",
+		"answer": "Special valuation rules may apply to agricultural property."
+	},
+	{
+		"number": 79,
+		"category": "probate",
+		"question": "What is a custodian under UTMA?",
+		"answer": "Someone who manages assets for minors until they reach adulthood."
+	},
+	{
+		"number": 80,
+		"category": "probate",
+		"question": "How are S-corp shares handled?",
+		"answer": "The estate becomes the shareholder until shares are transferred."
+	},
+	{
+		"number": 81,
+		"category": "probate",
+		"question": "What is a slayer statute?",
+		"answer": "Prevents murderers from inheriting from their victims."
+	},
+	{
+		"number": 82,
+		"category": "probate",
+		"question": "How are LLC interests handled?",
+		"answer": "Governed by both the operating agreement and probate law."
+	},
+	{
+		"number": 83,
+		"category": "probate",
+		"question": "What is a trust certificate?",
+		"answer": "A document showing trust ownership of assets."
+	},
+	{
+		"number": 84,
+		"category": "probate",
+		"question": "How are royalties handled?",
+		"answer": "Future payments are estate assets that must be addressed."
+	},
+	{
+		"number": 85,
+		"category": "probate",
+		"question": "What is an heirship proceeding?",
+		"answer": "A court process to determine legal heirs when there's no will."
+	},
+	{
+		"number": 86,
+		"category": "probate",
+		"question": "How are stock options handled?",
+		"answer": "They must be reviewed for transferability and expiration dates."
+	},
+	{
+		"number": 87,
+		"category": "probate",
+		"question": "What is a conservatorship?",
+		"answer": "Court-supervised management of a living person's affairs."
+	},
+	{
+		"number": 88,
+		"category": "probate",
+		"question": "How are frequent flyer miles handled?",
+		"answer": "Considered intangible personal property but rarely have monetary value."
+	},
+	{
+		"number": 89,
+		"category": "probate",
+		"question": "What is an ethical will?",
+		"answer": "A non-legal document sharing values and life lessons."
+	},
+	{
+		"number": 90,
+		"category": "probate",
+		"question": "How are cryptocurrency assets handled?",
+		"answer": "Must be properly identified and secured during probate."
+	},
+	{
+		"number": 91,
+		"category": "probate",
+		"question": "What is a lady bird deed?",
+		"answer": "An enhanced life estate deed used in some states."
+	},
+	{
+		"number": 92,
+		"category": "probate",
+		"question": "How are water rights handled?",
+		"answer": "Appurtenant water rights transfer with the property."
+	},
+	{
+		"number": 93,
+		"category": "probate",
+		"question": "What is a TOD deed?",
+		"answer": "Transfer-on-death deed that avoids probate for real estate."
+	},
+	{
+		"number": 94,
+		"category": "probate",
+		"question": "How are patents handled?",
+		"answer": "Intellectual property that must be valued and transferred."
+	},
+	{
+		"number": 95,
+		"category": "probate",
+		"question": "What is a quiet title action?",
+		"answer": "A lawsuit to resolve ownership disputes."
+	},
+	{
+		"number": 96,
+		"category": "probate",
+		"question": "How are royalties handled?",
+		"answer": "Future payments are estate assets that must be addressed."
+	},
+	{
+		"number": 97,
+		"category": "probate",
+		"question": "What is a muniment of title?",
+		"answer": "A simplified probate process used in some states for small estates."
+	},
+	{
+		"number": 98,
+		"category": "probate",
+		"question": "How are security deposits handled?",
+		"answer": "Rental deposits must be properly transferred to new owners."
+	},
+	{
+		"number": 99,
+		"category": "probate",
+		"question": "What is a resulting trust?",
+		"answer": "An implied trust created by operation of law."
+	},
+	{
+		"number": 100,
+		"category": "probate",
+		"question": "How are cemetery plots handled?",
+		"answer": "They transfer according to will terms or state law, with special rules in some cases."
+	},
+	{
+		"number": 101,
+		"category": "conservatorship",
+		"question": "What is conservatorship real estate?",
+		"answer": "Property owned by someone under court-ordered conservatorship because they cannot manage their own affairs."
+	},
+	{
+		"number": 102,
+		"category": "conservatorship",
+		"question": "How does a conservator sell property?",
+		"answer": "By petitioning the court, obtaining appraisals, and following strict procedures similar to probate sales."
+	},
+	{
+		"number": 103,
+		"category": "conservatorship",
+		"question": "What are the conservator's duties?",
+		"answer": "To maintain, protect, and properly manage the conservatee's real estate assets under court supervision."
+	},
+	{
+		"number": 104,
+		"category": "conservatorship",
+		"question": "Can a conservator rent out property?",
+		"answer": "Yes, with court approval showing it benefits the conservatee and proper accounting of rental income."
+	},
+	{
+		"number": 105,
+		"category": "conservatorship",
+		"question": "How is property value determined?",
+		"answer": "Through professional appraisals ordered by the court, typically updated annually."
+	},
+	{
+		"number": 106,
+		"category": "conservatorship",
+		"question": "Can a conservator buy the property?",
+		"answer": "Generally prohibited unless specifically authorized by the court under strict conditions."
+	},
+	{
+		"number": 107,
+		"category": "conservatorship",
+		"question": "How long does conservatorship last?",
+		"answer": "Until the court terminates it, often when the conservatee regains capacity or passes away."
+	},
+	{
+		"number": 108,
+		"category": "conservatorship",
+		"question": "What is a limited conservatorship?",
+		"answer": "A tailored arrangement that only restricts specific rights rather than full control."
+	},
+	{
+		"number": 109,
+		"category": "conservatorship",
+		"question": "How are property taxes handled?",
+		"answer": "The conservator must ensure all property taxes are paid from the conservatee's funds."
+	},
+	{
+		"number": 110,
+		"category": "conservatorship",
+		"question": "Can the conservatee live in the home?",
+		"answer": "Yes, unless the court determines it's not in their best interest."
+	},
+	{
+		"number": 111,
+		"category": "conservatorship",
+		"question": "What is a conservatorship bond?",
+		"answer": "An insurance policy protecting the conservatee's assets from mismanagement."
+	},
+	{
+		"number": 112,
+		"category": "conservatorship",
+		"question": "How are mortgages handled?",
+		"answer": "The conservator must maintain payments or seek court approval for refinancing."
+	},
+	{
+		"number": 113,
+		"category": "conservatorship",
+		"question": "Can relatives challenge sales?",
+		"answer": "Yes, interested parties can object to proposed transactions in court."
+	},
+	{
+		"number": 114,
+		"category": "conservatorship",
+		"question": "What is an annual accounting?",
+		"answer": "A detailed report the conservator must file with the court each year."
+	},
+	{
+		"number": 115,
+		"category": "conservatorship",
+		"question": "How are improvements handled?",
+		"answer": "Major improvements require court approval showing they benefit the conservatee."
+	},
+	{
+		"number": 116,
+		"category": "conservatorship",
+		"question": "What is a temporary conservatorship?",
+		"answer": "An emergency arrangement granted before full hearings can occur."
+	},
+	{
+		"number": 117,
+		"category": "conservatorship",
+		"question": "How are insurance proceeds handled?",
+		"answer": "Must be used to repair or replace damaged property unless court approves alternative use."
+	},
+	{
+		"number": 118,
+		"category": "conservatorship",
+		"question": "Can a conservator take out loans?",
+		"answer": "Only with explicit court authorization showing it benefits the conservatee."
+	},
+	{
+		"number": 119,
+		"category": "conservatorship",
+		"question": "What is a conservatorship estate?",
+		"answer": "All assets under the conservator's management for the protected person."
+	},
+	{
+		"number": 120,
+		"category": "conservatorship",
+		"question": "How are HOA fees handled?",
+		"answer": "The conservator must ensure all HOA obligations are met."
+	},
+	{
+		"number": 121,
+		"category": "conservatorship",
+		"question": "Can a conservator be removed?",
+		"answer": "Yes, if not properly performing duties, through court petition."
+	},
+	{
+		"number": 122,
+		"category": "conservatorship",
+		"question": "What is a conservatorship plan?",
+		"answer": "A court-approved strategy for managing the conservatee's affairs."
+	},
+	{
+		"number": 123,
+		"category": "conservatorship",
+		"question": "How are utilities handled?",
+		"answer": "The conservator maintains essential services in the conservatee's name."
+	},
+	{
+		"number": 124,
+		"category": "conservatorship",
+		"question": "What is a public guardian?",
+		"answer": "A government-appointed conservator when no family is available."
+	},
+	{
+		"number": 125,
+		"category": "conservatorship",
+		"question": "How are reverse mortgages handled?",
+		"answer": "With extreme caution and only with court approval showing clear benefit."
+	},
+	{
+		"number": 126,
+		"category": "conservatorship",
+		"question": "Can a conservator gift property?",
+		"answer": "Almost never allowed, as it must benefit the conservatee directly."
+	},
+	{
+		"number": 127,
+		"category": "conservatorship",
+		"question": "What is a conservatorship investigator?",
+		"answer": "A court officer who evaluates the need for ongoing conservatorship."
+	},
+	{
+		"number": 128,
+		"category": "conservatorship",
+		"question": "How are mineral rights handled?",
+		"answer": "Like other property interests, requiring court approval for transactions."
+	},
+	{
+		"number": 129,
+		"category": "conservatorship",
+		"question": "What is a LPS conservatorship?",
+		"answer": "A specialized arrangement for gravely disabled persons in California."
+	},
+	{
+		"number": 130,
+		"category": "conservatorship",
+		"question": "How are timeshares handled?",
+		"answer": "As property interests requiring court approval for any transfers."
+	},
+	{
+		"number": 131,
+		"category": "conservatorship",
+		"question": "Can a conservator change wills?",
+		"answer": "No, conservators cannot alter estate planning documents."
+	},
+	{
+		"number": 132,
+		"category": "conservatorship",
+		"question": "What is a conservatorship audit?",
+		"answer": "A court-ordered examination of the conservator's financial management."
+	},
+	{
+		"number": 133,
+		"category": "conservatorship",
+		"question": "How are life estates handled?",
+		"answer": "The life tenant's rights must be respected per the property agreement."
+	},
+	{
+		"number": 134,
+		"category": "conservatorship",
+		"question": "What is a conservatorship review?",
+		"answer": "A periodic court evaluation of the ongoing need for conservatorship."
+	},
+	{
+		"number": 135,
+		"category": "conservatorship",
+		"question": "How are easements handled?",
+		"answer": "Existing easements remain unless modified by court order."
+	},
+	{
+		"number": 136,
+		"category": "conservatorship",
+		"question": "Can a conservator be paid?",
+		"answer": "Yes, but fees must be reasonable and approved by the court."
+	},
+	{
+		"number": 137,
+		"category": "conservatorship",
+		"question": "What is a conservatorship inventory?",
+		"answer": "A complete listing of all assets under management, filed with the court."
+	},
+	{
+		"number": 138,
+		"category": "conservatorship",
+		"question": "How are LLC interests handled?",
+		"answer": "Governed by both the operating agreement and conservatorship rules."
+	},
+	{
+		"number": 139,
+		"category": "conservatorship",
+		"question": "What is a temporary restraining order in conservatorship?",
+		"answer": "An emergency order protecting assets until full hearings occur."
+	},
+	{
+		"number": 140,
+		"category": "conservatorship",
+		"question": "How are farm assets handled?",
+		"answer": "Special rules may apply to maintain agricultural operations."
+	},
+	{
+		"number": 141,
+		"category": "conservatorship",
+		"question": "Can a conservator create trusts?",
+		"answer": "Only with explicit court authorization showing clear benefit."
+	},
+	{
+		"number": 142,
+		"category": "conservatorship",
+		"question": "What is a conservatorship mediation?",
+		"answer": "A process to resolve disputes about the conservatee's care or assets."
+	},
+	{
+		"number": 143,
+		"category": "conservatorship",
+		"question": "How are water rights handled?",
+		"answer": "As valuable property interests requiring court protection."
+	},
+	{
+		"number": 144,
+		"category": "conservatorship",
+		"question": "What is a conservatorship hearing?",
+		"answer": "A court proceeding to review or modify the conservatorship."
+	},
+	{
+		"number": 145,
+		"category": "conservatorship",
+		"question": "How are partnership interests handled?",
+		"answer": "The conservator steps into the conservatee's role per partnership terms."
+	},
+	{
+		"number": 146,
+		"category": "conservatorship",
+		"question": "Can a conservator file taxes?",
+		"answer": "Yes, the conservator must file all required tax returns."
+	},
+	{
+		"number": 147,
+		"category": "conservatorship",
+		"question": "What is a conservatorship termination?",
+		"answer": "The legal process ending the conservatorship arrangement."
+	},
+	{
+		"number": 148,
+		"category": "conservatorship",
+		"question": "How are S-corp shares handled?",
+		"answer": "The conservator manages the shares per corporate and court rules."
+	},
+	{
+		"number": 149,
+		"category": "conservatorship",
+		"question": "What is a conservatorship appeal?",
+		"answer": "A challenge to conservatorship decisions in a higher court."
+	},
+	{
+		"number": 150,
+		"category": "conservatorship",
+		"question": "How are cemetery plots handled?",
+		"answer": "As property interests, with special consideration for sentimental value."
+	},
+	{
+		"number": 151,
+		"category": "conservatorship",
+		"question": "Can a conservator change beneficiaries?",
+		"answer": "Generally no, unless specifically authorized by the court."
+	},
+	{
+		"number": 152,
+		"category": "conservatorship",
+		"question": "What is a conservatorship registration?",
+		"answer": "Filing to establish jurisdiction when conservatee moves between states."
+	},
+	{
+		"number": 153,
+		"category": "conservatorship",
+		"question": "How are royalties handled?",
+		"answer": "As income for the conservatee, properly accounted for."
+	},
+	{
+		"number": 154,
+		"category": "conservatorship",
+		"question": "What is a conservatorship surety bond?",
+		"answer": "Insurance protecting the conservatee from financial mismanagement."
+	},
+	{
+		"number": 155,
+		"category": "conservatorship",
+		"question": "How are digital assets handled?",
+		"answer": "Following state laws on access and management of digital property."
+	},
+	{
+		"number": 156,
+		"category": "conservatorship",
+		"question": "What is a conservatorship investigator's report?",
+		"answer": "An evaluation of whether conservatorship remains necessary."
+	},
+	{
+		"number": 157,
+		"category": "conservatorship",
+		"question": "How are pets handled?",
+		"answer": "As property, but with consideration for the conservatee's attachment."
+	},
+	{
+		"number": 158,
+		"category": "conservatorship",
+		"question": "What is a conservatorship care plan?",
+		"answer": "A detailed strategy for the conservatee's living arrangements and care."
+	},
+	{
+		"number": 159,
+		"category": "conservatorship",
+		"question": "How are firearms handled?",
+		"answer": "Following all gun laws and court orders regarding dangerous weapons."
+	},
+	{
+		"number": 160,
+		"category": "conservatorship",
+		"question": "What is a conservatorship of the person?",
+		"answer": "Management of personal care decisions rather than financial matters."
+	},
+	{
+		"number": 161,
+		"category": "conservatorship",
+		"question": "How are collectibles handled?",
+		"answer": "As valuable assets requiring proper protection and valuation."
+	},
+	{
+		"number": 162,
+		"category": "conservatorship",
+		"question": "What is a conservatorship of the estate?",
+		"answer": "Management of financial matters only, not personal care."
+	},
+	{
+		"number": 163,
+		"category": "conservatorship",
+		"question": "How are frequent flyer miles handled?",
+		"answer": "As intangible property with typically minimal monetary value."
+	},
+	{
+		"number": 164,
+		"category": "conservatorship",
+		"question": "What is a conservatorship accounting?",
+		"answer": "Detailed financial reports filed periodically with the court."
+	},
+	{
+		"number": 165,
+		"category": "conservatorship",
+		"question": "How are veterans benefits handled?",
+		"answer": "Following all VA rules regarding fiduciary management."
+	},
+	{
+		"number": 166,
+		"category": "conservatorship",
+		"question": "What is a conservatorship bond premium?",
+		"answer": "The cost for the insurance protecting the conservatee's assets."
+	},
+	{
+		"number": 167,
+		"category": "conservatorship",
+		"question": "How are stock options handled?",
+		"answer": "As financial assets requiring court approval for exercise or sale."
+	},
+	{
+		"number": 168,
+		"category": "conservatorship",
+		"question": "What is a conservatorship training requirement?",
+		"answer": "Some states mandate education for new conservators."
+	},
+	{
+		"number": 169,
+		"category": "conservatorship",
+		"question": "How are patents handled?",
+		"answer": "As intellectual property requiring proper management."
+	},
+	{
+		"number": 170,
+		"category": "conservatorship",
+		"question": "What is a conservatorship visitation right?",
+		"answer": "Rules about who can visit the conservatee and when."
+	},
+	{
+		"number": 171,
+		"category": "conservatorship",
+		"question": "How are security deposits handled?",
+		"answer": "As property interests requiring proper transfer or accounting."
+	},
+	{
+		"number": 172,
+		"category": "conservatorship",
+		"question": "What is a conservatorship emergency petition?",
+		"answer": "A request for immediate court action to protect the conservatee."
+	},
+	{
+		"number": 173,
+		"category": "conservatorship",
+		"question": "How are cryptocurrency assets handled?",
+		"answer": "As property requiring special security measures and documentation."
+	},
+	{
+		"number": 174,
+		"category": "conservatorship",
+		"question": "What is a conservatorship modification?",
+		"answer": "A court-ordered change to the terms of the arrangement."
+	},
+	{
+		"number": 175,
+		"category": "conservatorship",
+		"question": "How are TOD deeds handled?",
+		"answer": "As property interests that may need court review if recently created."
+	},
+	{
+		"number": 176,
+		"category": "conservatorship",
+		"question": "What is a conservatorship restoration?",
+		"answer": "The process of ending conservatorship when capacity is regained."
+	},
+	{
+		"number": 177,
+		"category": "conservatorship",
+		"question": "How are lady bird deeds handled?",
+		"answer": "As property interests that may need court review if recently created."
+	},
+	{
+		"number": 178,
+		"category": "conservatorship",
+		"question": "What is a conservatorship notice requirement?",
+		"answer": "Rules about who must be informed of court proceedings."
+	},
+	{
+		"number": 179,
+		"category": "conservatorship",
+		"question": "How are resulting trusts handled?",
+		"answer": "As equitable interests requiring court protection."
+	},
+	{
+		"number": 180,
+		"category": "conservatorship",
+		"question": "What is a conservatorship standby petition?",
+		"answer": "A preemptive request to appoint a successor conservator."
+	},
+	{
+		"number": 181,
+		"category": "conservatorship",
+		"question": "How are homestead rights handled?",
+		"answer": "Special protections for the conservatee's primary residence."
+	},
+	{
+		"number": 182,
+		"category": "conservatorship",
+		"question": "What is a conservatorship capacity declaration?",
+		"answer": "Medical documentation of the need for conservatorship."
+	},
+	{
+		"number": 183,
+		"category": "conservatorship",
+		"question": "How are community property rights handled?",
+		"answer": "Following state marital property laws in management decisions."
+	},
+	{
+		"number": 184,
+		"category": "conservatorship",
+		"question": "What is a conservatorship service plan?",
+		"answer": "A detailed strategy for meeting the conservatee's needs."
+	},
+	{
+		"number": 185,
+		"category": "conservatorship",
+		"question": "How are testamentary trusts handled?",
+		"answer": "As estate assets requiring proper administration."
+	},
+	{
+		"number": 186,
+		"category": "conservatorship",
+		"question": "What is a conservatorship home visit?",
+		"answer": "A court investigator's evaluation of living conditions."
+	},
+	{
+		"number": 187,
+		"category": "conservatorship",
+		"question": "How are slayer statute issues handled?",
+		"answer": "Preventing anyone who harmed the conservatee from benefiting."
+	},
+	{
+		"number": 188,
+		"category": "conservatorship",
+		"question": "What is a conservatorship medical consent?",
+		"answer": "Authority to make healthcare decisions for the conservatee."
+	},
+	{
+		"number": 189,
+		"category": "conservatorship",
+		"question": "How are muniment of title issues handled?",
+		"answer": "As property transfers requiring court approval if contested."
+	},
+	{
+		"number": 190,
+		"category": "conservatorship",
+		"question": "What is a conservatorship supported decision-making?",
+		"answer": "An alternative to full conservatorship in some jurisdictions."
+	},
+	{
+		"number": 191,
+		"category": "conservatorship",
+		"question": "How are quiet title actions handled?",
+		"answer": "As lawsuits requiring court approval before filing."
+	},
+	{
+		"number": 192,
+		"category": "conservatorship",
+		"question": "What is a conservatorship least restrictive alternative?",
+		"answer": "Court preference for minimal interference with rights."
+	},
+	{
+		"number": 193,
+		"category": "conservatorship",
+		"question": "How are holographic wills handled?",
+		"answer": "As estate documents the conservator must protect but not alter."
+	},
+	{
+		"number": 194,
+		"category": "conservatorship",
+		"question": "What is a conservatorship public benefits?",
+		"answer": "Management of government assistance programs."
+	},
+	{
+		"number": 195,
+		"category": "conservatorship",
+		"question": "How are preneed guardian appointments handled?",
+		"answer": "As advance directives given consideration by the court."
+	},
+	{
+		"number": 196,
+		"category": "conservatorship",
+		"question": "What is a conservatorship durable power of attorney?",
+		"answer": "A document that may affect conservatorship establishment."
+	},
+	{
+		"number": 197,
+		"category": "conservatorship",
+		"question": "How are pretermitted heir issues handled?",
+		"answer": "As inheritance matters requiring court resolution."
+	},
+	{
+		"number": 198,
+		"category": "conservatorship",
+		"question": "What is a conservatorship mediation?",
+		"answer": "A process to resolve disputes about the arrangement."
+	},
+	{
+		"number": 199,
+		"category": "conservatorship",
+		"question": "How are ethical wills handled?",
+		"answer": "As personal documents without legal effect on property."
+	},
+	{
+		"number": 200,
+		"category": "conservatorship",
+		"question": "What is a conservatorship final discharge?",
+		"answer": "The official court order ending the conservator's duties."
+	},
+	{
+		"number": 201,
+		"category": "trust",
+		"question": "What is a trust sale?",
+		"answer": "The sale of property held in a trust, conducted by the trustee according to the trust terms without probate."
+	},
+	{
+		"number": 202,
+		"category": "trust",
+		"question": "Does a trust sale require court confirmation?",
+		"answer": "Typically no, unless the trust document specifies otherwise or the trustee lacks full authority."
+	},
+	{
+		"number": 203,
+		"category": "trust",
+		"question": "What is a living trust?",
+		"answer": "A legal arrangement where assets are placed in trust during the grantor's lifetime, avoiding probate at death."
+	},
+	{
+		"number": 204,
+		"category": "trust",
+		"question": "How does a trust avoid probate?",
+		"answer": "Assets are owned by the trust rather than the individual, so they don't pass through the probate process."
+	},
+	{
+		"number": 205,
+		"category": "trust",
+		"question": "What's the difference between revocable and irrevocable trusts?",
+		"answer": "Revocable trusts can be changed by the grantor; irrevocable trusts generally cannot be modified once established."
+	},
+	{
+		"number": 206,
+		"category": "trust",
+		"question": "Who controls a trust after the grantor dies?",
+		"answer": "The successor trustee named in the trust document assumes control and administers the trust."
+	},
+	{
+		"number": 207,
+		"category": "trust",
+		"question": "Can a trust be contested?",
+		"answer": "Yes, but it's more difficult than contesting a will and requires proving incapacity or undue influence."
+	},
+	{
+		"number": 208,
+		"category": "trust",
+		"question": "What are the trustee's duties?",
+		"answer": "To manage trust assets prudently, follow the trust terms, and act in the beneficiaries' best interests."
+	},
+	{
+		"number": 209,
+		"category": "trust",
+		"question": "How are trust assets distributed?",
+		"answer": "According to the specific instructions in the trust document, which may include staggered distributions."
+	},
+	{
+		"number": 210,
+		"category": "trust",
+		"question": "What is a pour-over will?",
+		"answer": "A will that transfers any remaining assets into the trust at death, ensuring they avoid probate."
+	},
+	{
+		"number": 211,
+		"category": "trust",
+		"question": "Can a trust own real estate?",
+		"answer": "Yes, real estate is commonly held in trusts to avoid probate and simplify transfers."
+	},
+	{
+		"number": 212,
+		"category": "trust",
+		"question": "What is a trust certification?",
+		"answer": "A document proving the trust's existence and the trustee's authority, used in property transactions."
+	},
+	{
+		"number": 213,
+		"category": "trust",
+		"question": "How are trust taxes handled?",
+		"answer": "Revocable trusts use the grantor's SSN; irrevocable trusts may need their own EIN and tax filings."
+	},
+	{
+		"number": 214,
+		"category": "trust",
+		"question": "What is a successor trustee?",
+		"answer": "The person or institution who takes over trust management when the original trustee can no longer serve."
+	},
+	{
+		"number": 215,
+		"category": "trust",
+		"question": "Can a trustee be removed?",
+		"answer": "Yes, through court proceedings if they violate duties or the trust terms allow for removal."
+	},
+	{
+		"number": 216,
+		"category": "trust",
+		"question": "What is a trust amendment?",
+		"answer": "A legal change to specific trust provisions while keeping the rest of the document intact."
+	},
+	{
+		"number": 217,
+		"category": "trust",
+		"question": "How are trust disputes resolved?",
+		"answer": "Through mediation, arbitration, or if necessary, trust litigation in probate court."
+	},
+	{
+		"number": 218,
+		"category": "trust",
+		"question": "What is a trust protector?",
+		"answer": "An independent person given authority to modify certain trust terms as circumstances change."
+	},
+	{
+		"number": 219,
+		"category": "trust",
+		"question": "Can a trust protect assets from creditors?",
+		"answer": "Certain irrevocable trusts can provide asset protection, but revocable trusts generally do not."
+	},
+	{
+		"number": 220,
+		"category": "trust",
+		"question": "What is a special needs trust?",
+		"answer": "A trust designed to provide for disabled beneficiaries without disqualifying them from government benefits."
+	},
+	{
+		"number": 221,
+		"category": "trust",
+		"question": "How are trust accountings handled?",
+		"answer": "Trustees must provide regular accountings to beneficiaries as required by state law and the trust terms."
+	},
+	{
+		"number": 222,
+		"category": "trust",
+		"question": "What is a testamentary trust?",
+		"answer": "A trust created by a will that takes effect only after probate is complete."
+	},
+	{
+		"number": 223,
+		"category": "trust",
+		"question": "Can a trust be changed after death?",
+		"answer": "Generally no, unless the trust includes specific modification provisions like a trust protector."
+	},
+	{
+		"number": 224,
+		"category": "trust",
+		"question": "What is a discretionary trust?",
+		"answer": "A trust giving the trustee discretion over when and how much to distribute to beneficiaries."
+	},
+	{
+		"number": 225,
+		"category": "trust",
+		"question": "How are trust expenses paid?",
+		"answer": "From trust assets, unless the trust specifies otherwise. Trustees must keep careful records."
+	},
+	{
+		"number": 226,
+		"category": "trust",
+		"question": "What is a charitable remainder trust?",
+		"answer": "An irrevocable trust providing income to beneficiaries with the remainder eventually going to charity."
+	},
+	{
+		"number": 227,
+		"category": "trust",
+		"question": "Can a trust own a business?",
+		"answer": "Yes, trusts can hold business interests, though management may require special provisions."
+	},
+	{
+		"number": 228,
+		"category": "trust",
+		"question": "What is a Totten trust?",
+		"answer": "A payable-on-death bank account that functions like a simple trust for one asset."
+	},
+	{
+		"number": 229,
+		"category": "trust",
+		"question": "How are trust beneficiaries notified?",
+		"answer": "As required by state law - typically written notice when the trust becomes irrevocable."
+	},
+	{
+		"number": 230,
+		"category": "trust",
+		"question": "What is a spendthrift provision?",
+		"answer": "A trust clause protecting assets from beneficiary creditors until distributions are made."
+	},
+	{
+		"number": 231,
+		"category": "trust",
+		"question": "Can a trust be terminated?",
+		"answer": "Yes, if all beneficiaries agree and it's allowed by the trust terms or court order."
+	},
+	{
+		"number": 232,
+		"category": "trust",
+		"question": "What is a qualified personal residence trust?",
+		"answer": "A specialized trust for homes that can reduce estate taxes."
+	},
+	{
+		"number": 233,
+		"category": "trust",
+		"question": "How are trust investments managed?",
+		"answer": "Following the 'prudent investor rule' - diversifying to balance risk and return."
+	},
+	{
+		"number": 234,
+		"category": "trust",
+		"question": "What is a dynasty trust?",
+		"answer": "A long-term trust designed to benefit multiple generations while avoiding estate taxes."
+	},
+	{
+		"number": 235,
+		"category": "trust",
+		"question": "Can a trust be created for a pet?",
+		"answer": "Yes, pet trusts are valid in many states to provide for animal care."
+	},
+	{
+		"number": 236,
+		"category": "trust",
+		"question": "What is a land trust?",
+		"answer": "A trust specifically for holding real estate, often used for privacy purposes."
+	},
+	{
+		"number": 237,
+		"category": "trust",
+		"question": "How are trust distributions taxed?",
+		"answer": "Depends on the trust type - some distributions carry out taxable income to beneficiaries."
+	},
+	{
+		"number": 238,
+		"category": "trust",
+		"question": "What is a bypass trust?",
+		"answer": "A marital trust designed to maximize estate tax exemptions for couples."
+	},
+	{
+		"number": 239,
+		"category": "trust",
+		"question": "Can a trust be created without an attorney?",
+		"answer": "Yes, but not recommended due to complex legal and tax implications."
+	},
+	{
+		"number": 240,
+		"category": "trust",
+		"question": "What is a silent trust?",
+		"answer": "A trust that delays beneficiary notifications for a specified period."
+	},
+	{
+		"number": 241,
+		"category": "trust",
+		"question": "How are trust loans handled?",
+		"answer": "With proper documentation and only when permitted by the trust terms."
+	},
+	{
+		"number": 242,
+		"category": "trust",
+		"question": "What is a Medicaid trust?",
+		"answer": "An irrevocable trust designed to protect assets while qualifying for Medicaid."
+	},
+	{
+		"number": 243,
+		"category": "trust",
+		"question": "Can a trust be created in another state?",
+		"answer": "Yes, and sometimes done to take advantage of favorable trust laws."
+	},
+	{
+		"number": 244,
+		"category": "trust",
+		"question": "What is a trust decanting?",
+		"answer": "The process of moving assets from one trust to another with more favorable terms."
+	},
+	{
+		"number": 245,
+		"category": "trust",
+		"question": "How are trust real estate sales different?",
+		"answer": "They don't require probate but must follow the trust's instructions about property disposition."
+	},
+	{
+		"number": 246,
+		"category": "trust",
+		"question": "What is a directed trust?",
+		"answer": "A trust where different advisors handle investment, distribution, and administrative decisions."
+	},
+	{
+		"number": 247,
+		"category": "trust",
+		"question": "Can a trust own foreign property?",
+		"answer": "Yes, but may create additional legal and tax complexities."
+	},
+	{
+		"number": 248,
+		"category": "trust",
+		"question": "What is a trust reformation?",
+		"answer": "A court-ordered modification to correct mistakes or achieve tax objectives."
+	},
+	{
+		"number": 249,
+		"category": "trust",
+		"question": "How are trust mergers handled?",
+		"answer": "Combining trusts requires following state law and the original trust terms."
+	},
+	{
+		"number": 250,
+		"category": "trust",
+		"question": "What is a trust situs?",
+		"answer": "The legal jurisdiction governing the trust, which affects administration and taxes."
+	},
+	{
+		"number": 251,
+		"category": "trust",
+		"question": "Can a trust be the beneficiary of an IRA?",
+		"answer": "Yes, but requires careful planning to avoid negative tax consequences."
+	},
+	{
+		"number": 252,
+		"category": "trust",
+		"question": "What is a trust protector?",
+		"answer": "An independent person given authority to modify certain trust terms as circumstances change."
+	},
+	{
+		"number": 253,
+		"category": "trust",
+		"question": "How are trust amendments executed?",
+		"answer": "Following the modification procedures in the original trust document."
+	},
+	{
+		"number": 254,
+		"category": "trust",
+		"question": "What is a trust accounting?",
+		"answer": "A detailed report of trust income, expenses, and distributions to beneficiaries."
+	},
+	{
+		"number": 255,
+		"category": "trust",
+		"question": "Can a trust be created for a minor?",
+		"answer": "Yes, and often used to manage assets until the child reaches specified ages."
+	},
+	{
+		"number": 256,
+		"category": "trust",
+		"question": "What is a trust termination clause?",
+		"answer": "Provisions specifying when and how the trust should end."
+	},
+	{
+		"number": 257,
+		"category": "trust",
+		"question": "How are trust expenses allocated?",
+		"answer": "Between income and principal according to state law and trust terms."
+	},
+	{
+		"number": 258,
+		"category": "trust",
+		"question": "What is a trust funding?",
+		"answer": "The process of transferring assets into the trust's name."
+	},
+	{
+		"number": 259,
+		"category": "trust",
+		"question": "Can a trust be created orally?",
+		"answer": "In very limited circumstances in some states, but written trusts are strongly preferred."
+	},
+	{
+		"number": 260,
+		"category": "trust",
+		"question": "What is a trust remainder beneficiary?",
+		"answer": "Someone who inherits trust assets after prior beneficiaries' interests end."
+	},
+	{
+		"number": 261,
+		"category": "trust",
+		"question": "How are trust conflicts resolved?",
+		"answer": "Through mediation, arbitration, or if necessary, court proceedings."
+	},
+	{
+		"number": 262,
+		"category": "trust",
+		"question": "What is a trust accumulation provision?",
+		"answer": "Language allowing the trustee to retain income rather than distribute it."
+	},
+	{
+		"number": 263,
+		"category": "trust",
+		"question": "Can a trust own S-corp stock?",
+		"answer": "Certain trusts can, but must meet IRS qualifications as permissible shareholders."
+	},
+	{
+		"number": 264,
+		"category": "trust",
+		"question": "What is a trust no-contest clause?",
+		"answer": "A provision discouraging beneficiaries from challenging the trust's terms."
+	},
+	{
+		"number": 265,
+		"category": "trust",
+		"question": "How are trust records maintained?",
+		"answer": "Trustees must keep detailed, organized records of all transactions and decisions."
+	},
+	{
+		"number": 266,
+		"category": "trust",
+		"question": "What is a trust certification of trust?",
+		"answer": "A shortened version of the trust document used to prove trustee authority."
+	},
+	{
+		"number": 267,
+		"category": "trust",
+		"question": "Can a trust be created for a grandchild?",
+		"answer": "Yes, generation-skipping trusts are common for grandchildren's education and support."
+	},
+	{
+		"number": 268,
+		"category": "trust",
+		"question": "What is a trust amendment vs restatement?",
+		"answer": "An amendment changes specific provisions; a restatement completely rewrites while keeping same tax ID."
+	},
+	{
+		"number": 269,
+		"category": "trust",
+		"question": "How are trust distributions to minors handled?",
+		"answer": "Through custodial accounts or trustee management until the minor reaches specified age."
+	},
+	{
+		"number": 270,
+		"category": "trust",
+		"question": "What is a trust power of appointment?",
+		"answer": "Authority given to someone to direct where trust assets go within specified parameters."
+	},
+	{
+		"number": 271,
+		"category": "trust",
+		"question": "Can a trust be created without the beneficiary's knowledge?",
+		"answer": "Yes, silent trusts allow this for certain periods in some states."
+	},
+	{
+		"number": 272,
+		"category": "trust",
+		"question": "What is a trust trustee's certificate?",
+		"answer": "A document proving the trustee's authority to act on behalf of the trust."
+	},
+	{
+		"number": 273,
+		"category": "trust",
+		"question": "How are trust real estate taxes handled?",
+		"answer": "The trustee must ensure all property taxes are paid from trust assets."
+	},
+	{
+		"number": 274,
+		"category": "trust",
+		"question": "What is a trust partition?",
+		"answer": "Dividing trust assets into separate shares for different beneficiaries."
+	},
+	{
+		"number": 275,
+		"category": "trust",
+		"question": "Can a trust be created for a charity?",
+		"answer": "Yes, charitable trusts provide benefits to organizations while offering tax advantages."
+	},
+	{
+		"number": 276,
+		"category": "trust",
+		"question": "What is a trust disclaimer?",
+		"answer": "When a beneficiary refuses an inheritance, allowing it to pass to others."
+	},
+	{
+		"number": 277,
+		"category": "trust",
+		"question": "How are trust mortgages handled?",
+		"answer": "The trustee can obtain financing when permitted by the trust terms and state law."
+	},
+	{
+		"number": 278,
+		"category": "trust",
+		"question": "What is a trust protector's role?",
+		"answer": "To oversee the trustee and make certain modifications as circumstances require."
+	},
+	{
+		"number": 279,
+		"category": "trust",
+		"question": "Can a trust be created for a business partner?",
+		"answer": "Yes, business succession trusts help facilitate smooth ownership transitions."
+	},
+	{
+		"number": 280,
+		"category": "trust",
+		"question": "What is a trust investment policy?",
+		"answer": "Guidelines for how trust assets should be invested, often outlined in the document."
+	},
+	{
+		"number": 281,
+		"category": "trust",
+		"question": "How are trust amendments witnessed?",
+		"answer": "Following state law requirements, typically with notarization and witness signatures."
+	},
+	{
+		"number": 282,
+		"category": "trust",
+		"question": "What is a trust cy pres doctrine?",
+		"answer": "Court modification of charitable trusts when original purposes become impossible."
+	},
+	{
+		"number": 283,
+		"category": "trust",
+		"question": "Can a trust be created for a pet?",
+		"answer": "Yes, pet trusts are valid in many states to provide for animal care."
+	},
+	{
+		"number": 284,
+		"category": "trust",
+		"question": "What is a trust trustee's bond?",
+		"answer": "An insurance policy protecting trust assets from trustee misconduct."
+	},
+	{
+		"number": 285,
+		"category": "trust",
+		"question": "How are trust mineral rights handled?",
+		"answer": "As property interests requiring proper management and potential development."
+	},
+	{
+		"number": 286,
+		"category": "trust",
+		"question": "What is a trust accumulation distribution?",
+		"answer": "Paying out previously retained income to beneficiaries."
+	},
+	{
+		"number": 287,
+		"category": "trust",
+		"question": "Can a trust be created for a special needs person?",
+		"answer": "Yes, special needs trusts preserve government benefit eligibility."
+	},
+	{
+		"number": 288,
+		"category": "trust",
+		"question": "What is a trust trustee's resignation?",
+		"answer": "The formal process for stepping down from trustee duties."
+	},
+	{
+		"number": 289,
+		"category": "trust",
+		"question": "How are trust business interests managed?",
+		"answer": "Following both the trust terms and applicable business laws."
+	},
+	{
+		"number": 290,
+		"category": "trust",
+		"question": "What is a trust settlor's capacity?",
+		"answer": "The legal and mental ability to create a valid trust."
+	},
+	{
+		"number": 291,
+		"category": "trust",
+		"question": "Can a trust be created for a future grandchild?",
+		"answer": "Yes, class gifts can include unborn descendants."
+	},
+	{
+		"number": 292,
+		"category": "trust",
+		"question": "What is a trust trustee's standard of care?",
+		"answer": "The legal duty to manage trust assets prudently and loyally."
+	},
+	{
+		"number": 293,
+		"category": "trust",
+		"question": "How are trust life insurance proceeds handled?",
+		"answer": "As trust assets to be managed according to the trust terms."
+	},
+	{
+		"number": 294,
+		"category": "trust",
+		"question": "What is a trust trustee's compensation?",
+		"answer": "Reasonable fees for services, either as specified in the trust or approved by court."
+	},
+	{
+		"number": 295,
+		"category": "trust",
+		"question": "Can a trust be created for multiple families?",
+		"answer": "Yes, joint trusts can be created by multiple settlors for blended families."
+	},
+	{
+		"number": 296,
+		"category": "trust",
+		"question": "What is a trust trustee's removal?",
+		"answer": "Court-ordered dismissal for breach of fiduciary duties."
+	},
+	{
+		"number": 297,
+		"category": "trust",
+		"question": "How are trust digital assets managed?",
+		"answer": "Following both the trust terms and state digital asset laws."
+	},
+	{
+		"number": 298,
+		"category": "trust",
+		"question": "What is a trust trustee's delegation?",
+		"answer": "Assigning certain duties to professionals while retaining oversight."
+	},
+	{
+		"number": 299,
+		"category": "trust",
+		"question": "Can a trust be created for a non-citizen?",
+		"answer": "Yes, but may have special tax considerations."
+	},
+	{
+		"number": 300,
+		"category": "trust",
+		"question": "What is a trust trustee's final distribution?",
+		"answer": "The process of closing the trust by distributing all remaining assets to beneficiaries."
+	},
+	{
+		"number": 301,
+		"category": "probate",
+		"question": "What is probate and why does it matter in real estate?",
+		"answer": "Probate is the legal process for managing a deceased person's estate, including the distribution of assets and settlement of debts. In real estate, probate ensures that properties are transferred legally and properly after the owner's death."
+	},
+	{
+		"number": 302,
+		"category": "probate",
+		"question": "How long does the probate Process typically take?",
+		"answer": "The probate process in California generally takes about 9 months to 2 years. The duration can vary based on the complexity of the estate, state laws, and whether any disputes arise among heirs."
+	},
+	{
+		"number": 303,
+		"category": "probate",
+		"question": "Are probate Sales different from traditional real estate sales?",
+		"answer": "Yes, probate sales involve properties owned by deceased individuals and are subject to court oversight. This process includes specific legal requirements, such as needing court approval for the sale price."
+	},
+	{
+		"number": 304,
+		"category": "probate",
+		"question": "What are the advantages and disadvantages of buying a property through probate?",
+		"answer": "Advantages: Buyers may have the opportunity to acquire properties at below-market prices and negotiate flexible terms. Disadvantages: The process may involve longer closing times and uncertainties regarding the property's condition or title issues."
+	},
+	{
+		"number": 305,
+		"category": "probate",
+		"question": "Can I finance a property purchased through probate?",
+		"answer": "Yes, financing is typically available for probate properties through traditional mortgage lenders. However, it's important to work with lenders who understand the probate process, as they may have specific requirements."
+	},
+	{
+		"number": 306,
+		"category": "probate",
+		"question": "How does probate affect property taxes on inherited real estate?",
+		"answer": "In California, inherited properties may undergo reassessment for property tax purposes. However, certain exclusions, such as those for transfers between parents and children under Proposition 13, may apply."
+	},
+	{
+		"number": 307,
+		"category": "probate",
+		"question": "Can I sell a property in probate before the probate process is complete?",
+		"answer": "Yes, properties can be sold before the probate process is fully completed. Once the Executor or Administrator obtains the necessary authority—either full or limited—through the court, they can sell the property. This authority can typically be granted within a few weeks of filing for probate, so you don't have to wait for the entire process to finalize, which may take much longer."
+	},
+	{
+		"number": 308,
+		"category": "probate",
+		"question": "What happens if there are multiple heirs to a probate property?",
+		"answer": "If multiple heirs exist, they must agree on the sale terms and how to distribute the proceeds. If disagreements occur, court intervention may be necessary."
+	},
+	{
+		"number": 309,
+		"category": "probate",
+		"question": "Are there any tax implications associated with probate property sales?",
+		"answer": "Yes, probate property sales may have tax implications, including potential capital gains taxes if the property sells for more than its basis. It's advisable to consult with a tax professional for specific guidance."
+	},
+	{
+		"number": 310,
+		"category": "probate",
+		"question": "How can I determine if a property is subject to probate?",
+		"answer": "Properties that are subject to probate are typically owned by deceased individuals. You can identify them through public records, such as probate court filings or notices of estate administration."
+	},
+	{
+		"number": 311,
+		"category": "executor",
+		"question": "What documents do I need before selling the property as an executor, trustee, or conservator?",
+		"answer": "If you're an executor, you'll need Letters of Administration or Testamentary and a death certificate. If you're a trustee, bring a copy of the trust, proof you're the current trustee, and the deed. Conservators will need a court order authorizing the sale. I'll help you gather exactly what's needed and coordinate with your attorney."
+	},
+	{
+		"number": 312,
+		"category": "executor",
+		"question": "Do I need to notify the HOA if I'm managing the estate or trust?",
+		"answer": "Yes. The HOA should be informed that the homeowner passed away and that you're managing the estate, trust, or conservatorship. They'll let you know about any dues, rules for selling, and access requirements. I can help you notify them and make sure you're in compliance."
+	},
+	{
+		"number": 313,
+		"category": "executor",
+		"question": "The property isn't in great shape—do I need to fix it before selling?",
+		"answer": "Not necessarily. Many probate, trust, or conservatorship properties are sold as-is. The key is pricing it right and disclosing everything. If you want to increase value with repairs, I can recommend cost-effective vendors. Either way, I've sold homes in all conditions."
+	},
+	{
+		"number": 314,
+		"category": "executor",
+		"question": "Do you work directly with my attorney or do I have to handle it all?",
+		"answer": "I work hand-in-hand with your attorney, not in place of them. You won't be left to figure it all out alone—I coordinate every step so you can focus on your role as executor, trustee, or conservator with confidence."
+	},
+	{
+		"number": 315,
+		"category": "executor",
+		"question": "What do we do with dad's guns or meds?",
+		"answer": "Firearms should be handled with extreme care. If you're unsure, I can connect you with a licensed firearms removal or storage professional. Expired medications should be disposed of through local pharmacy drop-offs or hazardous waste programs. We can help coordinate both if needed."
+	},
+	{
+		"number": 316,
+		"category": "executor",
+		"question": "Is the insurance still valid?",
+		"answer": "That's a big one. Many home insurance policies become void once the homeowner dies or the property is vacant for too long. I always recommend you contact the insurance provider and ask about coverage during probate. If needed, I can refer you to brokers who specialize in vacant estate coverage."
+	},
+	{
+		"number": 317,
+		"category": "executor",
+		"question": "What if someone's living in the house?",
+		"answer": "If it's a tenant, relative, or squatter, we'll need to confirm the situation. In some cases, we may need legal help to remove them. If they're cooperative, we can work around them—but it's best to clarify their status early. I'll help guide you on the cleanest path."
+	},
+	{
+		"number": 318,
+		"category": "executor",
+		"question": "Do we turn off the water and gas?",
+		"answer": "If the home's vacant and not being cleaned or shown yet, yes—shutting off water and gas can prevent leaks and safety issues. But once we start prepping it for market, they may need to be turned back on. I'll coordinate timing with the clean-up or repair crews."
+	},
+	{
+		"number": 319,
+		"category": "executor",
+		"question": "What do we do with everything inside the house?",
+		"answer": "You have a few options. You can keep what you want, donate items, sell valuables, or schedule a complete estate cleanout. If you'd like, I can bring in a team to sort, remove, donate, or trash everything—whatever makes your life easier."
+	},
+	{
+		"number": 320,
+		"category": "executor",
+		"question": "Can we sell the house to pay off the estate debts?",
+		"answer": "Absolutely. That's often the cleanest solution. We'll talk to your attorney to make sure the timing works with probate or trust rules, and once the house is sold, the proceeds can go toward debts, taxes, and beneficiary distributions."
+	},
+	{
+		"number": 321,
+		"category": "executor",
+		"question": "How fast can we sell the property?",
+		"answer": "Depends on the authority granted by the court. If it's full authority under the Independent Administration of Estates Act, you can usually sell without delays. If it's limited authority, we'll need court approval. Either way, I'll guide you through the right steps to avoid mistakes and delays."
+	},
+	{
+		"number": 322,
+		"category": "executor",
+		"question": "We don't have time to clean or prep the house. Can you handle it?",
+		"answer": "100%. I offer full-service coordination—junk removal, cleaning crews, locksmiths, you name it. You give me access, and I'll take it from there."
+	},
+	{
+		"number": 323,
+		"category": "executor",
+		"question": "Do we need court approval before selling?",
+		"answer": "Only if you have limited authority. If your Letters say full authority, you can move forward without court confirmation. Either way, I'll coordinate with your attorney to make sure everything's compliant."
+	},
+	{
+		"number": 324,
+		"category": "executor",
+		"question": "What if the estate has no money to fix or clean the house?",
+		"answer": "That's common, and there are solutions. I work with vendors who can defer payment until close of escrow. In some cases, we can even advance funds to get things moving."
+	},
+	{
+		"number": 325,
+		"category": "executor",
+		"question": "What about personal mail and bills still going to the house?",
+		"answer": "You should file a USPS change of address so all mail goes to the executor, trustee, or conservator. I also recommend notifying utility companies and banks so they update the account holder and send all statements to the right person while keeping essential services active."
+	},
+	{
+		"number": 326,
+		"category": "conservator",
+		"question": "As a conservator, can I sell property on behalf of the incapacitated person?",
+		"answer": "Yes, but only with proper court approval. You'll need a court order authorizing the sale. I can guide you through what's required and work with your attorney to make sure we stay compliant."
+	},
+	{
+		"number": 327,
+		"category": "executor",
+		"question": "Can you help me with clean-out and securing the property if I'm not local?",
+		"answer": "Absolutely. Whether you're an executor, trustee, or conservator managing from a distance, I can handle everything on-site—lock changes, cleanout, trash removal, and vendor coordination."
+	},
+	{
+		"number": 328,
+		"category": "executor",
+		"question": "What if there are multiple co-trustees or co-conservators?",
+		"answer": "All listed parties will typically need to sign listing agreements and sale documents. I can help facilitate communication and make sure everyone is on the same page legally and logistically."
+	},
+	{
+		"number": 329,
+		"category": "conservator",
+		"question": "The incapacitated person has belongings inside. What do I do with them?",
+		"answer": "You have the responsibility to protect and document the personal property. I can help coordinate item inventory, cleanup, and storage if needed, while ensuring everything is handled respectfully."
+	},
+	{
+		"number": 330,
+		"category": "executor",
+		"question": "As a trustee or conservator, what's my liability in the sale?",
+		"answer": "As long as you're acting within your legal authority and in the best interest of the trust or individual, your liability is limited. I always recommend working alongside your attorney—and I'll help you stay in full compliance throughout the process."
+	},
+	{
+		"number": 331,
+		"category": "executor",
+		"question": "How quickly can a trustee or conservator sell the home?",
+		"answer": "A trustee can usually sell right away if the trust allows it. A conservator will need a court order. I can help move things quickly on the real estate side while your attorney handles the legal side."
+	}
+]
