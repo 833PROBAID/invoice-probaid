@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { TextInput } from "../components/SharedComponents";
-import AiChatInterface from "../components/AiChatInterface";
+import { TextInput } from "../Components/SharedComponents";
+import AiChatInterface from "../Components/AiChatInterface";
 
 const formatCurrency = (value) =>
 	new Intl.NumberFormat("en-US", {

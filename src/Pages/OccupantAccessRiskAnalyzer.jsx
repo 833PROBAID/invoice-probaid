@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { Checkbox } from "../components/SharedComponents";
-import AiChatInterface from "../components/AiChatInterface";
+import { Checkbox } from "../Components/SharedComponents";
+import AiChatInterface from "../Components/AiChatInterface";
 
 const riskBands = [
 	{

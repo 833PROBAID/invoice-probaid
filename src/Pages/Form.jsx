@@ -14,7 +14,7 @@ import {
 	RadioGroup,
 	FormSection,
 	renderLabel,
-} from "../components/SharedComponents";
+} from "../Components/SharedComponents";
 
 const Form = () => {
 	const [formData, setFormData] = useState({

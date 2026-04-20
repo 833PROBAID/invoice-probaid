@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
-import { RadioGroup } from "../components/SharedComponents";
-import AiChatInterface from "../components/AiChatInterface";
+import { RadioGroup } from "../Components/SharedComponents";
+import AiChatInterface from "../Components/AiChatInterface";
 
 const riskProfiles = [
 	{
